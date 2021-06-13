@@ -1,0 +1,25 @@
+// Here's the code crap you wanted to take a look at, didn't use pow(,) here, not sure if it works within the course compiler, it's super bare bones. -CheapskateEngineer
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	int first_leg;
+	int second_leg;
+	double final_answer;
+	double hyp_length;
+	
+	cout << "Input first triangle leg:";
+	cin >> first_leg;
+	
+	cout << "Input second triangle leg:";
+	cin >> second_leg;
+	
+	hyp_length = first_leg * first_leg + second_leg * second_leg;
+	
+	final_answer = sqrt (hyp_length);
+	
+	cout << "Hypotenuse length: " << final_answer << endl;}
